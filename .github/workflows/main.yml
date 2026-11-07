@@ -235,6 +235,7 @@ jobs:
           path: release-assets
 
       - name: Publish playlist release
+        continue-on-error: true # 添加此行，即使上传失败也继续执行后续部署
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PAGES_BASE: ${{ needs.generate.outputs.pages_base_url }}
