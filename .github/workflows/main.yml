@@ -10,6 +10,9 @@ name: Generate playlist manually
 
 on:
   workflow_dispatch:
+  schedule:
+    # 每天北京时间早上 06:00 自动执行一次 (UTC 时间 22:00)
+    - cron: '0 22 * * *'
 
 permissions:
   contents: read
