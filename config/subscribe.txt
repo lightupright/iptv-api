@@ -3,10 +3,10 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
-https://gist.githubusercontent.com/inkss/0cf33e9f52fbb1f91bc5eb0144e504cf/raw/ipv4.m3u
-https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
-https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.m3u
-https://iptv-org.github.io/iptv/countries/cn.m3u
+https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_lite.m3u
+https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_cctv.m3u8
+https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_province.m3u8
+https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8
 
 
 
